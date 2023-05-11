@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@500;700&family=Open+Sans:wght@400;700&display=swap");
+
+/* Definir variáveis para reutilizar cores */
+:root {
+  --primary-color: #ee24ff;
+  --border-color: #eceff2;
+  --text-color: #828282;
+  --dark-text-color: #3f3d56;
+}
+
+/* Definir estilos para o corpo da página */
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  box-sizing: border-box;
+}
+
+/* Definir estilos para o container principal */
+.main {
+  width: 100%;
+  max-width: 1024px;
+  margin: auto;
+  
+}
+
+/* Definir estilos para as imagens */
+.banner {
+  margin-bottom: 32px;
+  max-width: 350px;
+  width: 90%;
+  
+}
+
+/* Definir estilos para os títulos */
+h1 {
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
+  margin: 0;
+  padding: 0 43px;
+}
+
+h1 span {
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+/* Definir estilos para o conteúdo */
+.content {
+  width: 100%;
+  max-width: 626px;
+  margin: 64px auto;
+}
+
+/* Definir estilos para o texto */
+.text {
+  font-size: 15px;
+  line-height: 20px;
+  padding: 0 43px;
+}
+
+/* Definir estilos para o texto em negrito */
+.strong {
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+/* Definir estilos para o rodapé */
+#footer {
+  max-width: 1024px;
+  width: 100%;
+  height: 176px;
+  margin: auto;
+}
+
+#footer img {
+    max-width: 1024px;
+    width: 100%;
+    margin: auto;
+}
+
+/* Definir estilos para a linha do rodapé */
+#footer #line {
+  max-width: 391px;
+  width: 100%;
+  margin: auto;
+  height: 0px;
+  border: 1px solid var(--border-color);
+}
+
+/* Definir estilos para os links do rodapé */
+#footer #links {
+  display: flex;
+  justify-content: center;
+}
+
+#footer .link {
+  margin-right: 42px;
+  list-style-type: none;
+  font-weight: 700;
+  font-size: 15px;
+  color: var(--dark-text-color);
+}
+
+#footer .link a {
+  text-decoration: none;
+  color: var(--dark-text-color);
+}
+
+/* Definir estilos para os links */
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: var(--dark-text-color);
+}
