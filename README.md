@@ -21,7 +21,7 @@ Este é um projeto da RocketSeat do programa Explore composto por 20 módulos, c
 </p>
 <br>
 
-[Visualise o Projeto aqui](https://tonelopes.github.io/explore-02-proximo-destino/)
+[Visualise o Projeto aqui](https://explore-02-proximo-destino.vercel.app/)
 
 ## 🚀 Tecnologias
 
@@ -33,7 +33,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 🪐 Link
 
-Você pode visualizar o projeto através [DESSE LINK](https://tonelopes.github.io/explore-02-proximo-destino/). 
+Você pode visualizar o projeto através [DESSE LINK](https://explore-02-proximo-destino.vercel.app/). 
 
 ## :memo: Licença
 
